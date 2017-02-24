@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="An assessment test allowing you to determine whether you should become a ceo,cfo or cto">
+    <meta name="author" content="Biko Kießling">
+
+    <title>Assessment Test</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jchart.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            padding-top: 70px;
+            /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+        }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+            <a class="navbar-brand" href="#">Quiz by Biko,Benjamin,Ali</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+    </div>
+    <!-- /.navbar-collapse -->
+
+    <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+
+<section class="container intro-container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="jumbotron">
+                <div class="text-container">
+                    <h1>Greetings,</h1>
+                    <h3>This sophisticated assessment test is supposed to inform you about which job could potentially
+                        be
+                        suitable for you.
+                        The evaluated positions comprise:
+                        <br>
+                    </h3>
+                    <ul>
+
+                        <li>Chief executive officer</li>
+                        <li>Chief financial officer</li>
+                        <li>Chief technical officer</li>
+                    </ul>
+                    <h5> note: trying to copy from your neighbor is not recommend as the answers are randomly arranged aswell as the answers..
+                        You
+                        can still give it a shot but they result might be surprising :) </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<form class="questions-form">
+
+</form>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <button onclick="interpretResult()" type="button" class="btn btn-success">Evaluate result!</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="result-panel" class="panel panel-info ">
+                <div class="panel-heading"><h3 id="result-heading"></h3></div>
+
+                <!--Content of the evaluated result-->
+                <div class="panel-body">
+                    <h6 id="result-body"></h6>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="result-circle" id="ceo-circle"></div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="result-circle" id="fin-circle" data-animation="1" data-animationStep="5"
+                                     data-percent="58"></div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="result-circle" id="tec-circle" data-animation="1" data-animationStep="5"
+                                     data-percent="58"></div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div id="result-radar" class="center-block"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div data-width="500" id="result-bar" class="center-block"></div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="panel-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><a
+                            href="javascript:window.location.reload(true)">Retry</a>
+                    </button>
+
+                    <!--No longer in use-->
+                    <!--<button type="button" class="btn btn-default" data-dismiss="modal"><a-->
+                    <!--href="/stats"></a>Show statistics-->
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<div id="not-finished-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Sorry!</h4>
+            </div>
+            <div class="modal-body">
+                <p>You have not yet ticked an answer for every question or have already evaluated a result! Please make sure neither of them is the case!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.circliful.min.js"></script>
+    <script src="js/jchart.js"></script>
+    <script src="js/jquery-radar-plus.js"></script>
+
+    <!--Custom Javascript-->
+    <script src="js/graphs.js" defer></script>
+    <script src="js/main.js"></script>
+</div>
+</body>
+
+</html>

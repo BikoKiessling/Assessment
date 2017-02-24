@@ -1,0 +1,306 @@
+[
+  {
+    "question": "Solve the following (each letter represents a particular digit):ABCD × D = DCBA",
+    "answers": [
+      {
+        "text": "3059* 3 = 9153   ",
+        "tec": 0,
+        "fin": 0.7,
+        "ceo": 0.8
+      },
+      {
+        "text": "1089 × 9 = 9801",
+        "tec": 1,
+        "ceo": 0.8,
+        "fin": 1
+      },
+      {
+        "text": "Neither of them is correct",
+        "ceo": 0,
+        "fin": 0,
+        "tec": 0
+      },
+      {
+        "text": "None of my business",
+        "ceo": 1,
+        "fin": 0.6,
+        "tec": 0.2
+      }
+    ]
+  },
+  {
+    "question": "Nehmen Sie zu folgender Aussage kritisch Stellung: 'Ein Monopolist kann auf seinem Markt jeden beliebigen Preis verlangen.'",
+    "answers": [
+      {
+        "text": "Die Aussage stimmt in dieser Absolutheit nicht. Auch ein Monopolist muss in seiner Strategie folgende Größen/Faktoren berücksichtigen: die Preis-Absatz-Situation (also die Reaktion der Nachfrager) das Eintreten von eventuellen Konkurrenzanbietern in den Markt (hohe Preise/ Gewinnerwartungen ziehen eventuelle Konkurrenten an).",
+        "tec": 1,
+        "fin": 0.8,
+        "ceo": 0.6
+      },
+      {
+        "text": "Diese Aussage ist definitiv nicht universell beantwortbar da diverse Faktoren die generelle Situation der einzelnen Anbieter drastisch variieren kann und dementsprechend auch die Umstände.",
+        "tec": 0.6,
+        "ceo": 1,
+        "fin": 0.7
+      },
+      {
+        "text": "Die Aussage stimmt in einem gewissen Außmaß. Wenn die Notwendigkeit des Produkts besteht, wird der Kunde im Falle eines nicht exorbitanten Preis auf das Angebot zurückgreifen. Jedoch spielen Faktoren wie Materialkosten trotzdem eine vitale Rolle.",
+        "ceo": 0.8,
+        "fin": 0.6,
+        "tec": 0.6
+      },
+      {
+        "text": "Die Aussage stimmt vollkommen da der Anbieter durch die nicht vorhandene Konkurrenz keineswegs durch Mitstreiter in einen Preisrahmen gedrängt wird.",
+        "ceo": 0,
+        "fin": 0,
+        "tec": 0
+      }
+    ]
+  },
+  {
+    "question": "Some employees of you have privately told of a person that has been teasing and bullying them for a significant period of time. How do you deal with this situation?",
+    "answers": [
+      {
+        "text": "In the presence of the affected victims I stand up to the bully and force him to directly confront the situation. If he effectively blocks the conversation, I inform him about the consequences of his behaviour.",
+        "tec": 0.3
+      },
+      {
+        "text": "I call on the victims to concisely write down what the bully has done and will do for a specific period of time. On a regular basis I analyze the result, conclude whether any additional measures are required and intervene as necessary. ",
+        "tec": 1,
+        "ceo": 0.4,
+        "fin": 1
+      },
+      {
+        "text": "I confront the bully in a private conversation and implicitly tackle the problem. If his behaviour does not change consequently, he has to bear the consequences.",
+        "ceo": 0.3,
+        "fin": 1,
+        "tec": 1
+      },
+      {
+        "text": "I do not know how to act in this situation.",
+        "ceo": 0,
+        "tec": 1,
+        "fin": 1
+      }
+    ]
+  },
+  {
+    "question": "A colleague asks you if you could help him with a computer related problem he is faced with? How do you proceed to help him?",
+    "answers": [
+      {
+        "text": "Research the internet in order to find the problem.",
+        "tec": 0.2,
+        "ceo": 0.4,
+        "fin": 0.4
+      },
+      {
+        "text": "Organize a group of immediate colleagues tasked finding a solution to the problem.",
+        "tec": 0.8,
+        "ceo": 1,
+        "fin": 0.7
+      },
+      {
+        "text": "Forward the existing problem to the IT apartment, which is specialized in this field of labour.",
+        "ceo": 0.6,
+        "fin": 0.8,
+        "tec": 0.2
+      },
+      {
+        "text": "Unfortunately I have to attend to my own problems, I’m sorry.",
+        "ceo": 1,
+        "fin": 0.8,
+        "tec": 0.4
+      }
+    ]
+  },
+  {
+    "question": "Your employer provides you with 15€. You are allowed to spend all on it to enable a 3-man breakfast with external clients. How would you spend the money?",
+    "answers": [
+      {
+        "text": "I would try to find the best food within the the given budget. Only the best for our clients.",
+        "tec": 0.7,
+        "ceo": 1,
+        "fin": 1
+      },
+      {
+        "text": "I would try to purchase rather cost efficient food to keep the total price relatively low while not staining the companies reputation. ",
+        "tec": 0.7,
+        "ceo": 1,
+        "fin": 0.7
+      },
+      {
+        "text": "I would keep the price relatively low to tap the full potential and be able to to purchase the maximum amount of products. Quantity over Quality.",
+        "tec": 0.5,
+        "ceo": 0.6,
+        "fin": 1
+      }
+    ]
+  },
+  {
+    "question": "How do you create a chart with the same formatting as the existing one, with the different set of data?",
+    "answers": [
+      {
+        "text": "You simply copy the chart formatting using Format Painter option in Clipboard group in Home Tab",
+        "tec": 0.8,
+        "ceo": 0.6,
+        "fin": 1
+      },
+      {
+        "text": "You copy the existing chart and change the data sources (right-click on the chart and choose Select Data option from a list)",
+        "tec": 1,
+        "ceo": 0.5,
+        "fin": 0.8
+      },
+      {
+        "text": "Create a chart template (right click on the chart and choose Save as a Template option from a list). When you are building a new chart use saved template as a chart type",
+        "tec": 0.5,
+        "ceo": 1,
+        "fin": 1
+      }
+    ]
+  },
+  {
+    "question": "Choose the most accurate statement below.",
+    "answers": [
+      {
+        "text": "It is important for me to excel at everything I do.",
+        "tec": 1,
+        "ceo": 1,
+        "fin": 1
+      },
+      {
+        "text": "I am good at everything I do.",
+        "tec": 0.5,
+        "ceo": 1,
+        "fin": 0.8
+      },
+      {
+        "text": "If you want to be successful, you can't always put others' needs first.",
+        "tec": 1,
+        "ceo": 1,
+        "fin": 0.8
+      }
+    ]
+  },
+  {
+    "question": "What is the optimal size of a project team, above which additional members do not contribute productivity equivalent to the percentage increase in the staff size?",
+    "answers": [
+      {
+        "text": "1",
+        "tec": 0,
+        "ceo": 0.2,
+        "fin": 0.2
+      },
+      {
+        "text": "3",
+        "tec": 1,
+        "ceo": 1,
+        "fin": 1
+      },
+      {
+        "text": "5",
+        "tec": 0.8,
+        "ceo": 0.5,
+        "fin": 0.7
+      },
+      {
+        "text": "11",
+        "tec": 0.3,
+        "ceo": 0.3,
+        "fin": 0.3
+      },
+      {
+        "text": "24",
+        "tec": 0,
+        "ceo": 0,
+        "fin": 0
+      }
+    ]
+  },
+  {
+    "question": "You're given a cube of cheese and a knife. How many straight cuts of the knife do you need to divide the cheese into twenty-seven little cubes?",
+    "answers": [
+      {
+        "text": "10",
+        "tec": 0.6,
+        "ceo": 0.2,
+        "fin": 0.6
+      },
+      {
+        "text": "12",
+        "tec": 0,
+        "ceo": 0,
+        "fin": 0
+      },
+      {
+        "text": "8",
+        "tec": 0.8,
+        "ceo": 0.5,
+        "fin": 0.7
+      },
+      {
+        "text": "6",
+        "tec": 1,
+        "ceo": 1,
+        "fin": 1
+      }
+    ]
+  },
+  {
+    "question": "At 3:15, what is the angle between the minute and hour hands on an analog clock?",
+    "answers": [
+      {
+        "text": "0 degrees",
+        "tec": 0,
+        "ceo": 0,
+        "fin": 0.6
+      },
+      {
+        "text": "7.5 degrees",
+        "tec": 1,
+        "ceo": 1,
+        "fin": 1
+      },
+      {
+        "text": "6 degrees",
+        "tec": 0.8,
+        "ceo": 0.5,
+        "fin": 0.6
+      },
+      {
+        "text": "5.5 degrees",
+        "tec": 0.5,
+        "ceo": 1,
+        "fin": 0.5
+      }
+    ]
+  },
+  {
+    "question": "Who would win in a fierce battle between a stick and 1000 marines?",
+    "answers": [
+      {
+        "text": "The marines because they are equipped with professional armory and the stick is merely a stick",
+        "tec": 0.7,
+        "ceo": 1,
+        "fin": 0.8
+      },
+      {
+        "text": "The stick because when they break it they have to face an additional problem.",
+        "tec": 1,
+        "ceo": 0.6,
+        "fin": 0.5
+      },
+      {
+        "text": "How does one come up with this? In how far is this related to my recommended job position?",
+        "ceo": 0.7,
+        "fin": 0.6
+      },
+      {
+        "text": "I have to research it first.",
+        "tec": 0,
+        "ceo": 0,
+        "fin": 0
+      }
+    ]
+  }
+]
