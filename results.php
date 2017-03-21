@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
+ * Created by PhpStorm
  * User: Biko
  * Date: 22.02.2017
  * Time: 18:39
